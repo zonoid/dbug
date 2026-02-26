@@ -68,11 +68,12 @@
     z-index: 9999;
 }
 
-.dbug-toggle:focus{outline:2px solid transparent; box-shadow: 0 0 0 3px color-mix(in srgb, var(--dbug-accent) 30%, transparent), var(--dbug-shadow);}
+.dbug-toggle:focus{
+    outline:2px solid transparent;
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--dbug-accent) 30%, transparent), var(--dbug-shadow);}
 .dbug-toggle-icon{
-    width:10px;height:10px;border-radius:999px;
-    background:var(--dbug-accent);
-    box-shadow: 0 0 0 3px color-mix(in srgb, var(--dbug-accent) 20%, transparent);
+    width: 1rem;
+    height: 1rem;
 }
 .dbug-toggle-text{letter-spacing:.2px}
 
@@ -283,6 +284,7 @@
     grid-template-columns:minmax(140px, 220px) 1fr;
     gap:8px 12px;
 }
+
 @media (max-width: 640px){
     .dbug-grid{grid-template-columns:1fr}
 }
