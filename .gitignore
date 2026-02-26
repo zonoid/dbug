@@ -1,0 +1,80 @@
+# ===============================
+# OS / System junk
+# ===============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===============================
+# IDEs / Editors
+# ===============================
+# PhpStorm / IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# ===============================
+# Node / frontend tooling
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+# Composer / PHP tooling
+# ===============================
+vendor/
+composer.lock
+
+# ===============================
+# Joomla runtime (never commit)
+# ===============================
+cache/
+administrator/cache/
+tmp/
+logs/
+log/
+session/
+
+# ===============================
+# Joomla configuration
+# ===============================
+configuration.php
+.htaccess
+web.config
+
+# ===============================
+# Build / packaging artifacts
+# ===============================
+dist/
+build/
+*.zip
+*.tar
+*.gz
+
+# ===============================
+# PHPUnit / testing
+# ===============================
+.phpunit.result.cache
+phpunit.xml
+phpunit.xml.dist
+
+# ===============================
+# Coverage / analysis
+# ===============================
+coverage/
+*.log
+
+# ===============================
+# Local env overrides
+# ===============================
+.env
+.env.*
